@@ -1,13 +1,10 @@
 /* selector de etiqueta header - section - article - nav*/
 /* selector descendente  */
 /* body header div nav ol li a  */
-
 /* selector de clase . */
 /* .link */
-
 /* selector de id # */
 /* $portafolio */
-
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -31,6 +28,7 @@ h1 {
     color: white;
     /* text-transform: uppercase; */
     /* text-decoration: dashed; */
+    /* margin: 100px 5200px 70px 30px; */
 }
 
 h1 strong{
@@ -57,10 +55,12 @@ h1 strong{
     border: 1px solid gray;
     border-radius: 10px;
     /* border-top-left-radius: 50px; */
+    margin-bottom: 15px;
 }
 
 .project-details {
-    width: 500px
+    width: 500px;
+    /* margin: 10px auto; */
 }
 
 .project-imageContainer {
