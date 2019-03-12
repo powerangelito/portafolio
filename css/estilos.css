@@ -90,6 +90,11 @@ h1 strong{
     /* flex-wrap: nowrap; */
     flex-wrap: wrap;
     /* flex-direction: column */
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    justify-content: space-around;
 }
 
 .box {
