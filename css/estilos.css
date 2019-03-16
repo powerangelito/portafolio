@@ -238,3 +238,40 @@ figure {
     text-decoration: none;
     border-radius: 5px;
 }
+
+.contact {
+    color: white;
+    background-color: #056fff;;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    /* border: 1px solid red; */
+
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    /* border: 1px solid white; */
+}
+
+.social-link.twitter {
+    background-image: url('../images/Twitter_icon-icons.com_66803.svg');
+}
+
+.social-link.facebook {
+    background-image: url('../images/facebook_icon-icons.com_53612.svg');
+}
+
+.social-link.github {
+    background-image: url('../images/github_icon-icons.com_69253.svg');
+}
+
+.social-link.instagram {
+    background-image: url('../images/Instagram_icon-icons.com_66804.svg');
+}
