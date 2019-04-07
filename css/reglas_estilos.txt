@@ -1,0 +1,29 @@
+modelo de caja
+
+es la suma del width y height, mas el padding mas el borde mas el margen
+
+borde padding y width
+
+
+width: 500px
+
+height: 500px
+padding 20px
+borde: 1px solid red
+
+cuanto es el ancho
+
+500 + 20 + 20 + 1 + 1 = 542
+
+para saber el 
+
+
+display: flex afecta unicamente a los hijos directos
+
+alineado de manera horizontal
+
+justify-content
+
+alineado de manera vertical
+
+align-items

@@ -40,7 +40,7 @@ h1 strong{
 }
 
 h2 {
-    color: #026fff;
+    color: #Fff;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -50,13 +50,18 @@ h2 {
 
 .hero {
     height: 300px;
-    background-image: url('../images/yo.jpeg');
-    background-color: #1b2127;
-    background-size: 500px 400px;
-    background-repeat: no-repeat;
-    background-position-x: right;
+    /* background-image: url('../images/yo.jpeg'); */
+    background-color: #0000ff;
+    /* background-size: 500px 400px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.hero.image {
+    object-fit: cover;
 }
 
 .portfolio{
@@ -199,6 +204,7 @@ figure {
 
 .event-list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .event-list-title {
@@ -207,7 +213,7 @@ figure {
 
 .event {
     margin: 10px;
-    width: 481px;
+    width: 480px;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -248,9 +254,6 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.social {
 }
 
 .social-link {
@@ -301,4 +304,14 @@ figure {
 
 .form-email h3 {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
 }
